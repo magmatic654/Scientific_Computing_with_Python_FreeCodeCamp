@@ -6,3 +6,7 @@
 # Variable names are case sensitive, i.e. my_var is different from my_Var and MY_VAR.
 # Finally, it is a common convention to write variable names using snake_case, where each space is replaced by an underscore character and the words are written in lowercase letters.
 # Remove both calls to print() and declare another variable called alphabet. Assign the string 'abcdefghijklmnopqrstuvwxyz' to this variable.
+
+text = 'Hello World'
+shift = 3
+alphabet = 'abcdefghijklmnopqrstuvwxyz'
