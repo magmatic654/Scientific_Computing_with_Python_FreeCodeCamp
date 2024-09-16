@@ -1,16 +1,11 @@
-# Step 40
-# Comparison operators allow you to compare two objects based on their values. You can use a comparison operator by placing it between the objects you want to compare. They return a Boolean value — namely True or False — depending on the truthfulness of the expression.
+# Step 39
+# You can obtain the same effect of a = a + b by using the addition assignment operator:
 
-# Python has the following comparison operators:
+# Example Code
+# a += b
+# The addition assignment operator enables you to add a value to a variable and then assign the result to that variable.
 
-# Operator	Meaning
-# ==	Equal
-# !=	Not equal
-# >	Greater than
-# <	Less than
-# >=	Greater than or equal to
-# <=	Less than or equal to
-# At the beginning of your loop body, print the result of comparing char with a space (' '). Use the equality operator == for that.
+# Use the += operator to add a value and assign it at the same time to encrypted_text.
 
 text = 'Hello World'
 shift = 3
@@ -18,7 +13,6 @@ alphabet = 'abcdefghijklmnopqrstuvwxyz'
 encrypted_text = ''
 
 for char in text.lower():
-    print(char == ' ')
     index = alphabet.find(char)
     new_index = index + shift
     encrypted_text += alphabet[new_index]
