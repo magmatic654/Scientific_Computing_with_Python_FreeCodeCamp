@@ -4,7 +4,6 @@
 # Go back to the original string by deleting the text reassignment.
 
 text = 'Hello World'
-text = 'Albatross'
 
 shift = 3
 alphabet = 'abcdefghijklmnopqrstuvwxyz'
